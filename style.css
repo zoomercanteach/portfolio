@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+}
+.link {
+    color:aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+.link:hover {
+    color: black;
+}
+.icon {
+    height: 40px;
+}
+.block {
+    display: flex;
+    height: 70vh;
+    background-color: rgb(193, 193, 193);
+}
+.block-img {
+    max-width: 50%;
+    max-height: 70vh;
+}
+.text {
+    padding: 5%;
+}
+.block-py {
+    height: 90vh;
+    background-image: url(py.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 20% 10%;
+    text-align: right;
+}
